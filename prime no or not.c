@@ -1,18 +1,18 @@
 #include <stdio.h>
 int main()
 {
-    int m,i,flag = 0;
+    int h,i,flag = 0;
 
-    scanf("%d", &n);
-    for(i=2; i<= m/2;++i)
+    scanf("%d", &h);
+    for(i=2; i<= h/2;++i)
     {
-        if(m%i == 0)
+        if(h%i == 0)
         {
             flag = 1;
             break;
         }
     }
-    if(m == 1) 
+    if(h == 1) 
     {
       printf("no");
     }
